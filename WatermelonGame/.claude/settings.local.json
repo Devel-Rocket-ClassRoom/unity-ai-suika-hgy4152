@@ -1,0 +1,58 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__unity-mcp__Unity_GetConsoleLogs",
+      "mcp__unity-mcp__Unity_RunCommand",
+      "mcp__unity-mcp__Unity_SceneView_Capture2DScene",
+      "WebSearch",
+      "Bash(python -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(where python3 *)",
+      "Bash(py --version)",
+      "Bash(python3 *)",
+      "Bash(del *)",
+      "PowerShell(& \"C:\\\\Users\\\\hgy41\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python3.exe\" \"C:\\\\Users\\\\hgy41\\\\UnityClass\\\\unity-ai-suika-hgy4152\\\\WatermelonGame\\\\Docs\\\\create_gdd.py\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\hgy41\\\\UnityClass\\\\unity-ai-suika-hgy4152\\\\WatermelonGame\\\\Assets\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Read(//c/Users/hgy41/UnityClass/unity-ai-suika-hgy4152/**)",
+      "Bash(gh repo *)",
+      "Bash(gh issue create --title '[EPIC 1] 프로젝트 셋업' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 2] 게임 박스\\(Container\\) 설정' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 3] 과일 프리팹 11종' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 4] 드롭 메커니즘' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 5] 합체\\(Merge\\) 로직' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 6] 점수 시스템' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 7] 게임 오버' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 8] UI 구성' --body ' *)",
+      "Bash(gh issue create --title '[EPIC 9] 씬 관리 & 마무리' --body ' *)",
+      "Bash(gh issue edit 1 --body ' *)",
+      "Bash(gh issue edit 2 --body ' *)",
+      "Skill(update-config)",
+      "Bash(gh issue *)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh",
+            "args": [
+              "-NonInteractive",
+              "-NoProfile",
+              "-File",
+              "C:/Users/hgy41/UnityClass/unity-ai-suika-hgy4152/WatermelonGame/.claude/hooks/csharpier-format.ps1"
+            ],
+            "timeout": 30,
+            "statusMessage": "CSharpier formatting..."
+          }
+        ]
+      }
+    ]
+  }
+}

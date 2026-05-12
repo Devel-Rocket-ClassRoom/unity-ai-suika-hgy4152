@@ -1,0 +1,38 @@
+{
+    "asset": "967ad17d1e6a1384da12987a82ec423b",
+    "fileName": "019e1b13-e4fc-7f4d-b862-ec8ae4e5b886.jpg",
+    "prompt": "Cute 2D cartoon pear, vibrant yellowish-orange color, simple happy kawaii face, soft shading, game asset, transparent background, high resolution, clean edges.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "86d9766f9ad8cb4498b55e526b7011e8",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

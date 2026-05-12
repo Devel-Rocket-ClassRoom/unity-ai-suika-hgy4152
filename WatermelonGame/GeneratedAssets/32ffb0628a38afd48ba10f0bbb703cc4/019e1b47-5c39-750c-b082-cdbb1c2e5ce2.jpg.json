@@ -1,0 +1,38 @@
+{
+    "asset": "32ffb0628a38afd48ba10f0bbb703cc4",
+    "fileName": "019e1b47-5c39-750c-b082-cdbb1c2e5ce2.jpg",
+    "prompt": "Cute round 2D cartoon pineapple body only, no green leaves on top, yellow crosshatch pattern, happy kawaii face, perfectly circular shape to fit a round collider, simple shading, game asset, transparent background, clean edges.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "86d9766f9ad8cb4498b55e526b7011e8",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

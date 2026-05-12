@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aac44769e7bee043932a9cc1d06ba14, type: 3}
+  m_Name: FruitConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FruitConfig
+  fruits:
+  - fruitName: "\uCCB4\uB9AC"
+    sprite: {fileID: 21300000, guid: 86d9766f9ad8cb4498b55e526b7011e8, type: 3}
+    radius: 0.19800001
+    scoreValue: 1
+  - fruitName: "\uB538\uAE30"
+    sprite: {fileID: 21300000, guid: b62a6ea4c9f38974f9ee208ba63d8767, type: 3}
+    radius: 0.28599998
+    scoreValue: 3
+  - fruitName: "\uD3EC\uB3C4"
+    sprite: {fileID: 21300000, guid: 036bfd4d09239f140a7cd48f8b3abf97, type: 3}
+    radius: 0.39600003
+    scoreValue: 6
+  - fruitName: "\uB370\uCF54\uD401"
+    sprite: {fileID: 21300000, guid: bb57ad66e4324a846b39ef1ea8f04ce0, type: 3}
+    radius: 0.528
+    scoreValue: 10
+  - fruitName: "\uAC10"
+    sprite: {fileID: 21300000, guid: 6fa42aadacb42674dbca7cc63b6ac094, type: 3}
+    radius: 0.68200004
+    scoreValue: 15
+  - fruitName: "\uC0AC\uACFC"
+    sprite: {fileID: 21300000, guid: 97e0fea772d5d8244888538c2c9fac4d, type: 3}
+    radius: 0.858
+    scoreValue: 21
+  - fruitName: "\uBC30"
+    sprite: {fileID: 21300000, guid: 5af6d599a20740c4caf3d67ce62b1393, type: 3}
+    radius: 1.056
+    scoreValue: 28
+  - fruitName: "\uBCF5\uC22D\uC544"
+    sprite: {fileID: 21300000, guid: 9f2958d847a2a81499654b8e1b07d3b8, type: 3}
+    radius: 1.276
+    scoreValue: 36
+  - fruitName: "\uD30C\uC778\uC560\uD50C"
+    sprite: {fileID: 21300000, guid: 32ffb0628a38afd48ba10f0bbb703cc4, type: 3}
+    radius: 1.518
+    scoreValue: 45
+  - fruitName: "\uBA5C\uB860"
+    sprite: {fileID: 21300000, guid: 565af32f99d95af4d979dd5a78479c09, type: 3}
+    radius: 1.7820001
+    scoreValue: 55
+  - fruitName: "\uC218\uBC15"
+    sprite: {fileID: 21300000, guid: 88d9f51844767a941a6daed428e9d96a, type: 3}
+    radius: 2.09
+    scoreValue: 66
