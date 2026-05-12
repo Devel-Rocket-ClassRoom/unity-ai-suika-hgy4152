@@ -31,7 +31,8 @@
       "Bash(gh issue edit 1 --body ' *)",
       "Bash(gh issue edit 2 --body ' *)",
       "Skill(update-config)",
-      "Bash(gh issue *)"
+      "Bash(gh issue *)",
+      "mcp__unity-mcp__Unity_Camera_Capture"
     ]
   },
   "hooks": {
