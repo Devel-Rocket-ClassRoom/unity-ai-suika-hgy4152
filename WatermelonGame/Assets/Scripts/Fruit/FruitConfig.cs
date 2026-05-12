@@ -11,6 +11,8 @@ public class FruitConfig : ScriptableObject
         [Tooltip("World-space radius")]
         public float radius = 0.5f;
         public int scoreValue;
+        [Tooltip("Particle & UI tint color for this fruit")]
+        public Color color = Color.white;
     }
 
     public FruitEntry[] fruits = new FruitEntry[11];

@@ -31,9 +31,12 @@ public class Fruit : MonoBehaviour
     }
 
     // ──────────────────────────────────────────────────────────────────────
+    FruitConfig _config;
+
     public void Init(int level, FruitConfig config)
     {
         Level = level;
+        _config = config;
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
 
@@ -76,6 +79,11 @@ public class Fruit : MonoBehaviour
         other.IsMerging = true;
 
         AudioManager.Instance?.PlayMerge();
+
+        Vector3 mid = (transform.position + other.transform.position) * 0.5f;
+        Color particleColor = _config != null ? _config.Get(Level).color : Color.white;
+        MergeParticlePlayer.Instance?.Play(mid, particleColor);
+
         yield return StartCoroutine(PopAnim());
 
         // Chain bonus
@@ -86,8 +94,6 @@ public class Fruit : MonoBehaviour
         _lastMergeTime = now;
 
         ScoreManager.Instance?.AddScore(Level, _chainCount);
-
-        Vector3 mid = (transform.position + other.transform.position) * 0.5f;
 
         // Watermelon + Watermelon → vanish
         if (Level == 11)
