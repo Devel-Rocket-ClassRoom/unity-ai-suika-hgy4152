@@ -1,0 +1,15 @@
+{
+    "asset": "d9eed6616b9d4ac45bee9c92bfa58ae0",
+    "fileName": "019e1b6a-3ded-7a99-9dc9-00f636764d1b.wav",
+    "prompt": "A soft, cute plop sound for a fruit dropping in a puzzle game",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

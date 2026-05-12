@@ -1,10 +1,9 @@
-using TMPro;
 using UnityEngine;
+using TMPro;
 
 public class TitleUI : MonoBehaviour
 {
-    [SerializeField]
-    TMP_Text bestScoreText;
+    [SerializeField] TMP_Text bestScoreText;
 
     void OnEnable()
     {

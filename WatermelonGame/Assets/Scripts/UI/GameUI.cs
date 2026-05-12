@@ -138,11 +138,27 @@ public class GameUI : MonoBehaviour
     }
 
     // ── Button Callbacks ───────────────────────────────────────────────────
-    public void OnPauseButton() => GameManager.Instance?.TogglePause();
+    public void OnPauseButton()
+    {
+        AudioManager.Instance?.PlayClick();
+        GameManager.Instance?.TogglePause();
+    }
 
-    public void OnResumeButton() => GameManager.Instance?.TogglePause();
+    public void OnResumeButton()
+    {
+        AudioManager.Instance?.PlayClick();
+        GameManager.Instance?.TogglePause();
+    }
 
-    public void OnRestartButton() => GameManager.Instance?.RestartGame();
+    public void OnRestartButton()
+    {
+        AudioManager.Instance?.PlayClick();
+        GameManager.Instance?.RestartGame();
+    }
 
-    public void OnTitleButton() => GameManager.Instance?.GoToTitle();
-}
+    public void OnTitleButton()
+    {
+        AudioManager.Instance?.PlayClick();
+        GameManager.Instance?.GoToTitle();
+    }
+    }

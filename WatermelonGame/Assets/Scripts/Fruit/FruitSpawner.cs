@@ -83,6 +83,10 @@ public class FruitSpawner : MonoBehaviour
         {
             SpawnCurrentFruitBug(10);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SpawnCurrentFruitBug(11);
+        }
     }
 
     // ── Input ──────────────────────────────────────────────────────────────
@@ -102,6 +106,7 @@ public class FruitSpawner : MonoBehaviour
 
         Fruit.ResetChain();
         _current.SetKinematic(false);
+        AudioManager.Instance?.PlayDrop();
         _current   = null;
         _canDrop   = false;
         SetGuideVisible(false);

@@ -75,6 +75,7 @@ public class Fruit : MonoBehaviour
         IsMerging = true;
         other.IsMerging = true;
 
+        AudioManager.Instance?.PlayMerge();
         yield return StartCoroutine(PopAnim());
 
         // Chain bonus

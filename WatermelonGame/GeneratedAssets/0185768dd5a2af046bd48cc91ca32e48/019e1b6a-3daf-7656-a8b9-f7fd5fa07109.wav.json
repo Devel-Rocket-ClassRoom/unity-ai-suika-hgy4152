@@ -1,0 +1,15 @@
+{
+    "asset": "0185768dd5a2af046bd48cc91ca32e48",
+    "fileName": "019e1b6a-3daf-7656-a8b9-f7fd5fa07109.wav",
+    "prompt": "A bright, satisfying pop or ding sound for items merging in a casual game",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}
