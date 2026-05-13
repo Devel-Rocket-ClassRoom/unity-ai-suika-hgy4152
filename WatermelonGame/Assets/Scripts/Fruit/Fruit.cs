@@ -79,6 +79,7 @@ public class Fruit : MonoBehaviour
         other.IsMerging = true;
 
         AudioManager.Instance?.PlayMerge();
+        MergeParticlePlayer.Instance?.Play((transform.position + other.transform.position) * 0.5f, _config.Get(Level).color);
 
         Vector3 mid = (transform.position + other.transform.position) * 0.5f;
         Color particleColor = _config != null ? _config.Get(Level).color : Color.white;

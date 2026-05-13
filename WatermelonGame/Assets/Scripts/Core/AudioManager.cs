@@ -5,9 +5,14 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get; private set; }
 
     [Header("Audio Clips")]
-    [SerializeField] private AudioClip dropClip;
-    [SerializeField] private AudioClip mergeClip;
-    [SerializeField] private AudioClip clickClip;
+    [SerializeField]
+    private AudioClip dropClip;
+
+    [SerializeField]
+    private AudioClip mergeClip;
+
+    [SerializeField]
+    private AudioClip clickClip;
 
     private AudioSource _audioSource;
 
@@ -26,7 +31,9 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlayDrop() => PlayClip(dropClip);
+
     public void PlayMerge() => PlayClip(mergeClip);
+
     public void PlayClick() => PlayClip(clickClip);
 
     private void PlayClip(AudioClip clip)
